@@ -77,6 +77,10 @@ P {
   color: black;
   font-family: "varela round";
 }
+#jam-text {
+  padding-top: 10px;
+  color: black;
+}
 
 .jam-digital-malasngoding {
   overflow: hidden;
@@ -84,7 +88,7 @@ P {
   width: 330px;
   height: 60px;
   margin: 20px auto;
-  border: 5px solid #efefef;
+  border: 5px solid black;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
@@ -94,11 +98,38 @@ P {
   float: left;
   width: 110px;
   height: 100px;
-  background-color: teal;
+  background-color: white;
 }
 .jam-digital-malasngoding p {
-  color: #fff;
+  color: black;
   font-size: 20pxpx;
   text-align: center;
   margin-top: 20px;
+}
+.background-container-white {
+  background-color: #e5e5e5;
+  height: auto;
+  padding-bottom: 20px;
+}
+#footer-text {
+  color: #e5e5e5;
+  padding: 1px;
+}
+#footer-text1 {
+  color: white;
+  padding-top: 20px;
+}
+.icon-web {
+  margin: 5px;
+  border: 1px solid white;
+  width: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#footer {
+  background-color: #0f172a;
 }
