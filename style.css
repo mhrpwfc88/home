@@ -42,7 +42,7 @@ P {
   justify-content: center;
 }
 .card {
-  border: 5px solid white;
+  background-color: white;
   border-radius: 10px;
   justify-content: space-between;
   margin: 20px;
@@ -55,10 +55,11 @@ P {
 }
 .img-content {
   margin-top: 2px;
-  width: 190px;
+  width: 160px;
   height: 135px;
   border: 2px solid white;
-  background-color: cadetblue;
+  background-color: white;
+  overflow: hidden;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -71,9 +72,19 @@ P {
 .foto {
   text-align: center;
 }
-.link {
+.link1 {
   margin-top: 5px;
-  color: black;
+  color: red;
+  font-family: "varela round";
+}
+.link2 {
+  margin-top: 5px;
+  color: blue;
+  font-family: "varela round";
+}
+.link3 {
+  margin-top: 5px;
+  color: gold;
   font-family: "varela round";
 }
 #jam-text {
@@ -131,4 +142,26 @@ P {
 }
 #footer {
   background-color: #0f172a;
+}
+#pesan {
+  background-color: #0f172a;
+  padding-bottom: 20px;
+  padding-top: 2px;
+}
+.pesan-text {
+  margin-top: 15px;
+
+  font-family: "Spectral", serif;
+  font-size: 30px;
+  color: #e5e5e5;
+}
+.p-text {
+  color: #e5e5e5;
+  padding: 1px;
+}
+
+.p-text1 {
+  color: black;
+  padding: 1px;
+  font-family: "Roboto Slab", serif;
 }
