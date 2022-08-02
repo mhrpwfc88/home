@@ -8,7 +8,7 @@ body {
 h1 {
   text-align: center;
   color: aliceblue;
-  font-family: "dancing script";
+  font-family: "Russo One", sans-serif;
 }
 h2 {
   text-align: center;
@@ -68,6 +68,8 @@ P {
 }
 .logo {
   width: 250px;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 .foto {
   text-align: center;
