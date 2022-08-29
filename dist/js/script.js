@@ -25,10 +25,10 @@ onload = function () {
           clearInterval(loaded);
           loading.textContent = "WELCOME TO MY PAGE";
         }, 4000);
+        setTimeout(() => {
+          window.location = "app.html";
+        }, 6000);
       };
-      setTimeout(() => {
-        window.location = "app.html";
-      }, 6000);
 
       function refreshPage(){
       window.location = "index.html"
