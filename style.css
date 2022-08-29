@@ -167,3 +167,16 @@ P {
   padding: 1px;
   font-family: "Roboto Slab", serif;
 }
+
+.btn-refresh{
+  width: 130px;
+  height: 35px;
+  background-color: aliceblue;
+  border: hidden;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}

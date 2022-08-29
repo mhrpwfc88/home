@@ -29,3 +29,7 @@ onload = function () {
       setTimeout(() => {
         window.location = "app.html";
       }, 6000);
+
+      function refreshPage(){
+      window.location = "index.html"
+      }
